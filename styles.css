@@ -1,0 +1,133 @@
+/* Full page background with deep blue gradient */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(to bottom right, #745dd2, #bfc8d2); /* Deep blue gradient */
+    font-family: Arial, sans-serif;
+  }
+  /* Header Section */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(185, 194, 214, 0.7);
+    z-index: 1000;
+  }
+  
+  /* Logo Styles */
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: 2px solid white;  /* Thin white border */
+    border-radius: 25px;      /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.6);  /* White shadow */
+    background-color: rgba(206, 227, 243, 0.5); /* Optional: add background to make the logo stand out */
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 50px; /* Adjusted right margin */
+    gap: .5px; /* Reduced gap between buttons */
+  }
+  
+  nav ul li {
+    margin-left: 10px; /* Decreased left margin */
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(18, 1, 1);
+    font-size: 14px; /* Reduced font size */
+    padding: 8px 15px; /* Reduced padding */
+    border-radius: 25px;
+    background-color: lightblue;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ff6600;
+    transform: translateY(-5px);
+  }
+  
+  nav ul li a:active {
+    transform: translateY(2px);
+  }
+  
+  /* Section Styles */
+  .section {
+    padding: 40px 20px;
+    margin-top: 80px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  p, .card, .project-card, .review-card {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .cards, .project-cards, .review-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Skills Card */
+  .card, .project-card, .review-card {
+    background-color: #b5d4f1;
+    color: #003366;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover, .project-card:hover, .review-card:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Contact Form */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input, textarea {
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #9dd4ec;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e65c00;
+  }
+  
